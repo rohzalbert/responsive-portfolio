@@ -1,0 +1,155 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px 0 30px;
+}
+.logo {
+  padding: 20px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #151515;
+}
+.navBar {
+  margin-top: 20px;
+}
+
+.navBar ul li {
+  display: inline;
+  list-style: none;
+}
+.navBar ul li a {
+  text-decoration: none;
+  color: #151515;
+  padding: 20px;
+}
+.heroContainer {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  height: 90vh;
+}
+.blackbg {
+  background-color: black;
+  height: 90vh;
+}
+.blackbg h3 {
+  color: whitesmoke;
+  position: absolute;
+  font-size: 5rem;
+  left: 20%;
+  top: 20%;
+  letter-spacing: 2px;
+}
+.blackbg h3 span {
+  color: black;
+  letter-spacing: 2px;
+}
+.image {
+  height: 90vh;
+}
+.image img {
+  height: 90vh;
+  object-fit: cover;
+}
+.heroContainer p {
+  font-size: 16px;
+  width: 300px;
+  line-height: 25px;
+}
+.heroTxt {
+  position: absolute;
+  right: 22%;
+  bottom: 12%;
+}
+.btn {
+  background-color: #151515;
+  color: #E7E8EA;
+  border: none;
+  padding: 20px;
+  font-size: 16px;
+}
+.btn i {
+  padding-left: 10px;
+}
+.galleryView {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  margin: 150px 250px 150px 250px;
+  gap: 20px;
+}
+.introTxt {
+  color: #151515;
+  padding: 50px;
+}
+.introTxt h3 {
+  font-size: 36px;
+  font-weight: 700;
+  width: 50%;
+  margin-left: 40px;
+}
+.introTxt p {
+  width: 50%;
+  margin-left: 40px;
+  line-height: 25px;
+
+}
+.galleryView img {
+  width: 600px;
+}
+
+.visitTxt {
+  background-color: #151515;
+  padding: 50px;
+  color: #E7E8EA;
+  height: 37%;
+  margin-top: 20px;
+}
+.visitTxt h3 {
+  font-size: 36px;
+  font-weight: 700;
+  width: 50%;
+  margin-left: 40px;
+}
+.visitTxt p {
+  width: 50%;
+  margin-left: 40px;
+  line-height: 25px;
+}
+
+.btnVisit {
+  color: #151515;
+  background: #E7E8EA;
+  border: none;
+  padding: 20px;
+  font-size: 16px;
+  margin-left: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  background-color: #151515;
+  color: #E7E8EA;
+  margin: 0;
+  
+}
+.footerLogo h3 {
+  padding: 20px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #E7E8EA;
+}
+.summary {
+  padding: 20px;
+  width: 30%;
+  margin-top: 20px;
+  margin-right: 20%;
+}
+.icons {
+  font-size: 24px;
+  margin-top: 50px;
+  margin-left: 20px;
+}

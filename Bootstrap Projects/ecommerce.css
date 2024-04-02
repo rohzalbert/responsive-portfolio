@@ -1,0 +1,89 @@
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+  color: #333333;
+  width: 100%;
+}
+
+.cart {
+  margin-left: 10px;
+}
+
+
+.btn {
+  background-color: rgb(253, 138, 138);
+  border: none;
+  color: white;
+}
+
+.btn:hover {
+  background-color: rgb(114, 134, 211);
+}
+
+.align-items-center text {
+  color: rgb(33, 53, 85);
+}
+
+/* @media only screen and (max-width: 845px) and (min-width: 580px) {
+  .heroTxt{
+    margin-top: 250px;
+  }
+} */
+
+@media only screen and (max-width: 845px) and (min-width: 470px) {
+  .heroTxt{
+    margin-top: 70em;
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 200px) {
+  .heroTxt text{
+    font-size: 12px;
+  }
+  .heroTxt h1 {
+    font-size: 17px;
+  }
+  .heroTxt p {
+    font-size: 12px;
+    width: 70%;
+    margin-bottom: 0;
+  }
+  .heroTxt .btn {
+    font-size: 12px;
+    padding: 2px 10px;
+    margin-top: 3px;
+  }
+}
+
+
+@media only screen and (max-width: 450px) and (min-width: 250px) {
+  .heroTxt {
+    margin-top: 50em;
+  }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 250px) {
+  .heroTxt text{
+    font-size: 8px;
+
+  }
+  .heroTxt h1 {
+    font-size: 12px;
+    padding: 0px;
+    margin-bottom: 5px;
+  }
+  .heroTxt p {
+    font-size: 8px;
+    width: 70%;
+    margin-bottom: 0;
+  }
+  .heroTxt .btn {
+    font-size: 12px;
+    padding: 2px 10px;
+    margin-top: 5px;
+  }
+}
+
+.shop {
+  margin-bottom: 0px;
+}
